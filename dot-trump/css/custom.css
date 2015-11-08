@@ -63,7 +63,7 @@ footer {
 }
 
 .homepage hr {
-	border-top: 1px solid #e74c3c;
+	border-top: 1px solid #b92212;
 	width: 150px;
 	margin-top: 15px;
 }
@@ -84,7 +84,7 @@ footer {
 }
 
 /*Responsive styling*/
-@media (max-width: 1199px) { 
+@media (max-width: 1199px) {
 	 .jumbotron h1 {
 	 	font-size: 56px;
 	 	margin-bottom: 30px;
