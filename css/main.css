@@ -5,11 +5,24 @@ body {
 h1 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
+}
+
+footer {
+  background-color: rgb(43, 58, 154);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .navbar {
@@ -20,10 +33,9 @@ p {
 .title {
   background-image: url("../images/univac.jpg");
   background-position: center;
-  background-size: 110%;
   background-repeat: no-repeat;
-  background-color: rgb(26, 26, 26);
-  padding: 200px 0;
+  background-color: rgba(26, 26, 26);
+  padding: 10% 0;
 }
 
 .title-text {
@@ -31,11 +43,29 @@ p {
   padding-left: 50%;
   padding-top: 35px;
   padding-bottom: 35px;
+  padding-right: 10%;
   vertical-align: middle;
-  background-color: #2a47b1;
+  background-color: rgba(43, 58, 154, 0.75);
 }
 
 .title-text h1 {
   font-size: 50px;
-  font-weight: bold;
+}
+
+.main {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.main-body {
+  /*Nothing to see here yet.*/
+}
+
+.main-body h1 {
+  text-align: center;
+}
+
+.main-body hr {
+  border-top: 1px solid rgb(43, 58, 154);
+  width: 300px;
 }
