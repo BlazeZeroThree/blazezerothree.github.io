@@ -1,0 +1,35 @@
+/* CSS Document */
+
+/*Background video*/
+video#bgvid {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+}
+
+.header {
+	padding-top: 150px;
+}
+
+.header h1, h2 {
+	color: #01B900;
+	background-color: #1D1D1D;
+	font-family: "Orbitron", "Courier New", monospace;
+}
+
+.header a {
+	color: #01B900;
+}
+
+.header a:hover {
+	background-color: #1AFF00;
+	text-decoration: line-through;
+}
