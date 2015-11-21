@@ -1,0 +1,7 @@
+[1120/224948:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[1120/224948:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[1120/224948:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[1120/224949:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[1120/224949:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[1120/224949:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[1120/224957:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
