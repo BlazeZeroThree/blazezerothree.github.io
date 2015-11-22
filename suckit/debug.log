@@ -5,3 +5,5 @@
 [1120/224949:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
 [1120/224949:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
 [1120/224957:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[1120/225556:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[1120/225556:ERROR:ipc_channel_win.cc(132)] pipe error: 109
