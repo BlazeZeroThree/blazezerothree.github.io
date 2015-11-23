@@ -27,14 +27,50 @@
   
         <div class="container">
             <div class="row header">
+            	<!--Placeholder for social media-->
                 <div class="col-md-3">
                     <p>Social media buttons go here.</p>
                 </div>
+                <!--Logo-->
                 <div class="col-md-6 logo">
                     <img src="img/logo.png" width="100%" alt="Header image" />
                 </div>
+                <!--Quote generator-->
                 <div class="col-md-3">
-                    <p>Random quote goes here.</p>
+                	<script language="JavaScript">
+						// ==============================================
+						// Copyright 2004 by CodeLifter.com
+						// Free for all; but please leave in this header.
+						// ==============================================
+						
+						var Quotation=new Array() // do not change this!
+						
+						// Set up the quotations to be shown, below.
+						// To add more quotations, continue with the
+						// pattern, adding to the array.  Remember
+						// to increment the Quotation[x] index!
+						
+						Quotation[0] = "&#34;He's so real it's like he's killing ME!&#34; *dies* - Squii";
+						Quotation[1] = "&#34;Now, I know it looks like about to stab you, and quite frankly, that's because I am...&#34; - Animus Vox II";
+						Quotation[2] = "&#34;TITTYFALL!&#34; - Blaze";
+						Quotation[3] = "&#34;BILLY MAYS HERE!&#34; - Faelar";
+						Quotation[4] = "&#34;Trust me, I'm a&#47;an &#91;CAREER&#93;&#34; - Antimony";
+						Quotation[5] = "&#34;Is it okay if I send you diet marijuana?&#34; - Chris";
+						Quotation[6] = "&#34;The Diggles encounter a Raveyard! (Roll charisma to apologetically pass through!)&#34; - Faelar";
+						Quotation[7] = "&#34;There is SO MUCH NO on this side of the chatroom that it would make a two-year-old reconsider his favorite answer to every question&#34; - AJ";
+						Quotation[8] = "&#34;Satisfied Sealand&#34; - Server message upon filling up Sealand's hunger";
+						Quotation[9] = "&#34;Don't mind Arfur, he's just doing the paperwork&#34; - Chris";
+						Quotation[10] = "&#34;Chris yells the word socks&#34; - Chris";
+						
+						// ======================================
+						// Do not change anything below this line
+						// ======================================
+						var Q = Quotation.length;
+						var whichQuotation=Math.round(Math.random()*(Q-1));
+						function showQuotation(){document.write(Quotation[whichQuotation]);}
+						showQuotation();
+						</script>
+                    <!--<p>Random quote goes here.</p>-->
                 </div>
             </div> <!--End of header.-->
             

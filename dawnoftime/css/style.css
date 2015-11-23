@@ -4,6 +4,10 @@
 	margin-top: 20px;
 	display: flex;
 	align-items: center;
+	font-family: Garamond, Georgia, serif;
+	font-size: 18px;
+	font-style: italic;
+	color: grey;
 }
 
 .logo img {
