@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.header {
+	margin-top: 20px;
+}
+
+.logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navbar {
+	padding: 20px 0;
+	font-family: "futura-pt", sans-serif;
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	overflow: hidden;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+}
+
+#navbar li {
+	float: left;
+	width: 20%;
+}
+
+#navbar a {
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+}
