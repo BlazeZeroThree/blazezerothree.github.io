@@ -2,6 +2,8 @@
 
 .header {
 	margin-top: 20px;
+	display: flex;
+	align-items: center;
 }
 
 .logo img {
@@ -11,7 +13,8 @@
 }
 
 #navbar {
-	padding: 20px 0;
+	padding-top: 5px;
+	padding-bottom: 15px;
 	font-family: "futura-pt", sans-serif;
 	font-size: 18px;
 }
@@ -19,7 +22,7 @@
 #navbar ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 5px;
+	padding: 0px;
 	overflow: hidden;
 	border-top: solid black 1px;
 	border-bottom: solid black 1px;
@@ -28,10 +31,43 @@
 #navbar li {
 	float: left;
 	width: 20%;
+	color: red;
 }
 
 #navbar a {
 	display: block;
 	text-transform: uppercase;
 	text-align: center;
+	color: #000000;
+	background: #FFFFFF;
+	-webkit-transition-property: color, background;
+	-webkit-transition-duration: 0.25s, 0.25s;
+	-webkit-transition-timing-function: linear, linear;
+}
+
+#navbar a:hover {
+	color: #FFFFFF;
+	background: #000000;
+}
+
+#lead {
+	background-image: url("../img/cover1.jpg");
+	background-position: auto;
+	background-size: cover;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	color: #FFFFFF;
+}
+
+#lead h1 {
+	text-shadow: 2px 2px 1px black;
+	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: bold;
+	font-size: 72px;
+}
+
+#lead p {
+	text-shadow: 1px 1px 1px black;
+	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 18px;
 }
