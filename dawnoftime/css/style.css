@@ -47,6 +47,7 @@
 	-webkit-transition-property: color, background;
 	-webkit-transition-duration: 0.25s, 0.25s;
 	-webkit-transition-timing-function: linear, linear;
+	text-decoration: none;
 }
 
 #navbar a:hover {
@@ -60,6 +61,7 @@
 	background-size: cover;
 	padding-top: 20%;
 	padding-bottom: 20%;
+	margin-bottom: 0;
 	color: #FFFFFF;
 }
 
@@ -73,5 +75,34 @@
 #lead p {
 	text-shadow: 1px 1px 1px black;
 	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 18px;
+}
+
+#content {
+	text-align: center;
+}
+
+#content hr {
+	border-top: 1px solid black;
+	width: 300px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#content h1 {
+	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 0;
+}
+
+#content h2 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+#content p {
+	text-align: left;
 	font-size: 18px;
 }
