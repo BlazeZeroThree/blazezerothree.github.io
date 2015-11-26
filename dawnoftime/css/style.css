@@ -1,5 +1,10 @@
 /* CSS Document */
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .header {
 	margin-top: 20px;
 	display: flex;
@@ -57,17 +62,19 @@
 
 #lead {
 	background-image: url("../img/cover1.jpg");
-	background-position: auto;
+	background-position: center center;
 	background-size: cover;
+    background-attachment: fixed;
 	padding-top: 20%;
 	padding-bottom: 20%;
 	margin-bottom: 0;
 	color: #FFFFFF;
+    text-align: center;
 }
 
 #lead h1 {
 	text-shadow: 2px 2px 1px black;
-	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "futura-pt", sans-serif;
 	font-weight: bold;
 	font-size: 72px;
 }
@@ -75,7 +82,7 @@
 #lead p {
 	text-shadow: 1px 1px 1px black;
 	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 #content {
@@ -90,7 +97,7 @@
 }
 
 #content h1 {
-	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "futura-pt", sans-serif;
 	font-weight: bold;
 	font-size: 40px;
 	margin-top: 0;
@@ -106,3 +113,14 @@
 	text-align: left;
 	font-size: 18px;
 }
+
+#footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: right;
+    color: white;
+    background-color: black;
+}
+
+/*Remember to add responsiveness below.*/
