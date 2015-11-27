@@ -10,7 +10,7 @@ body {
 	display: flex;
 	align-items: center;
 	font-family: Garamond, Georgia, serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-style: italic;
 	color: grey;
 }
@@ -31,7 +31,7 @@ body {
 #navbar ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0px;
+	padding: 0;
 	overflow: hidden;
 	border-top: solid black 1px;
 	border-bottom: solid black 1px;
@@ -39,8 +39,21 @@ body {
 
 #navbar li {
 	float: left;
-	width: 20%;
+	width: 18%;
 	color: red;
+}
+
+#navbar .search {
+    width: 28%;
+}
+
+#navbar .form-control {
+    width: 60%;
+    display: inline;
+}
+
+#navbar .input-group-btn {
+    display: inline;
 }
 
 #navbar a {
@@ -60,6 +73,10 @@ body {
 	background: #000000;
 }
 
+#navbar input {
+    width: 80%;
+}
+
 #lead {
 	background-image: url("../img/cover1.jpg");
 	background-position: center center;
@@ -75,7 +92,7 @@ body {
 #lead h1 {
 	text-shadow: 2px 2px 1px black;
 	font-family: "futura-pt", sans-serif;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 72px;
 }
 
@@ -124,3 +141,45 @@ body {
 }
 
 /*Remember to add responsiveness below.*/
+
+/*Animation code*/
+/*=== Trigger  ===*/
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+ 
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+ 
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+ 
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
