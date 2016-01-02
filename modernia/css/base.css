@@ -1,0 +1,30 @@
+/*
+Google Fonts available: 
+font-family: 'Playfair Display', serif; in Normal and Bold
+font-family: 'Oswald', sans-serif; in Normal
+*/
+
+body {
+    background-color: #FFE6C2;
+}
+
+h1 {
+    font-family: "futura-pt", "Futura LT Pro", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #EB1817;
+}
+
+p {
+    font-family: "Playfair Display", "Garamond", serif;
+}
+
+.header {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.navbar {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
