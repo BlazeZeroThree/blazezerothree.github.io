@@ -25,28 +25,22 @@
 
 <body>
 <div class="container">
-	<div class="row header"> 
-		<!--Placeholder for social media-->
-		<div class="col-md-3">
-			<p>Social media buttons go here.</p>
-		</div>
-		<!--Logo-->
-		<div class="col-md-6 logo"> <img src="img/logo.png" width="100%" alt="Header image" /> </div>
+	<div class="row header">
 		<!--Quote generator-->
-		<div class="col-md-3"> 
+		<div class="col-md-3">
 			<script language="JavaScript">
 						// ==============================================
 						// Copyright 2004 by CodeLifter.com
 						// Free for all; but please leave in this header.
 						// ==============================================
-						
+
 						var Quotation=new Array() // do not change this!
-						
+
 						// Set up the quotations to be shown, below.
 						// To add more quotations, continue with the
 						// pattern, adding to the array.  Remember
 						// to increment the Quotation[x] index!
-						
+
 						Quotation[0] = "&#34;He's so real it's like he's killing ME!&#34; *dies* - Squii";
 						Quotation[1] = "&#34;Now, I know it looks like about to stab you, and quite frankly, that's because I am...&#34; - Animus Vox II";
 						Quotation[2] = "&#34;TITTYFALL!&#34; - Blaze";
@@ -61,7 +55,7 @@
 						Quotation[11] = "&#34;damn windows&#34; - Wind";
 						Quotation[12] = "&#34Rusk is the kind of character who would act like he stole your child's lollipop.&#34 - Faelar";
 						Quotation[12] = "TOAST666";
-						
+
 						// ======================================
 						// Do not change anything below this line
 						// ======================================
@@ -69,28 +63,33 @@
 						var whichQuotation=Math.round(Math.random()*(Q-1));
 						function showQuotation(){document.write(Quotation[whichQuotation]);}
 						showQuotation();
-						</script> 
-			<!--<p>Random quote goes here.</p>--> 
+						</script>
+			<!--<p>Random quote goes here.</p>-->
+		</div>
+		<!--Logo-->
+		<div class="col-md-6 logo"> <img src="img/logo.png" width="100%" alt="Header image" /> </div>
+		<!--Placeholder for search function-->
+		<div class="col-md-3">
+			<p>Search function goes here.</p>
 		</div>
 	</div>
 	<!--End of header.-->
-	
+
 	<div id="navbar">
 		<ul>
 			<li class="active"><a href="index.html">Home</a></li>
-			<li><a href="sheets.html">Character Sheets</a></li>
-			<li><a href="lore.html">Lore Archives</a></li>
-			<li><a href="campaigns.html">Active Campaigns</a></li>
-			<li><a href="#">Search Bar Placeholder</a></li>
+			<li><a href="sheets.html">Sheets</a></li>
+			<li><a href="campaigns.html">Campaigns</a></li>
+			<li><a href="lore.html">Archives</a></li>
 		</ul>
 	</div>
 </div>
 <!--Closing container.-->
 
 <div id="lead">
-	<div class="container">
-		<h1>Find your way.</h1>
-		<p>Welcome to the Dawn of Time General Storage. Here you can do the thing!</p>
+	<div class="container animate fadeInUp">
+		<h1>A light in the darkness.</h1>
+		<p>The Dawn of Time General Storage is here to consolidate all of our campaign assets such as character sheets, lorebooks, and anything else your campaign might need into one simple indexing solution.</p>
 	</div>
 </div>
 <br>

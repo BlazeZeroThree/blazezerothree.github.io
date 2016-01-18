@@ -1,0 +1,201 @@
+/*font-family: 'Righteous', cursive; font-family: 'Orbitron', sans-serif;*/
+
+body {
+  padding-top: 50px;
+  background-color: #2A2C2B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', Helvetica, Arial, cursive;
+  color: #ededed;
+  font-size: 2.3em;
+}
+
+h3 {
+  color: #DC3522;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: 'Righteous', Helvetica, Arial, sans-serif;
+  color: #ededed;
+  font-size: 1.5em;
+}
+
+hr {
+  border-top: 1px solid #DC3522;
+  width: 250px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ul.nav {
+  font-family: 'Orbitron', Helvetica, Arial, cursive;
+  font-size: 2.5em;
+}
+
+a {
+  transition: 0.25s;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #DC3522;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #D9CB9E;
+}
+
+.navbar-inverse {
+  background-color: #1E1E20;
+}
+
+.navbar-brand>img {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: #1E1E20;
+  border-bottom: 1px black solid;
+}
+
+.container.noPadding {
+  padding: 0;
+}
+
+@media(max-width: 1199px) {
+  .navbar-brand>img {
+    height: 50px;
+    padding: 0;
+  }
+  .navbar-brand {
+    padding: 0;
+  }
+}
+
+#myCarousel h1, #myCarousel p {
+  color: white;
+}
+
+#schedule {
+  background-color: rgb(58, 61, 60);
+  background-image: url("../img/background-city.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#schedule .container {
+  background-color: rgba(58, 61, 60, 0.7);
+  border-left: 1px solid rgba(220, 53, 34, 0.8);
+  border-right: 1px solid rgba(220, 53, 34, 0.8);
+}
+
+#schedule h1, #menu h1, #about h1, #contact h1 {
+  font-size: 7em;
+}
+
+#menu {
+  background-color: black;
+  background-image: url("../img/background-ribs.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#menu .container {
+  background-color: rgba(86, 45, 45, 0.8);
+  border-left: 1px solid rgba(220, 53, 34, 0.8);
+  border-right: 1px solid rgba(220, 53, 34, 0.8);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+}
+
+#menu h2 {
+  text-align: center;
+}
+
+#menu img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#about {
+  background-image: url("../img/background-squad.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about .container {
+  background-color: rgba(91, 91, 91, 0.8);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-bottom: 50px;
+}
+
+#about p {
+  font-size: 1.8em;
+}
+
+#contact {
+  background-image: url("../img/contact-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact .container {
+  background-color: rgba(63, 70, 94, 0.8);
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+#contact a {
+  color: #DC3522;
+}
+
+#contact a:hover {
+  color: #D9CB9E;
+}
+
+footer {
+  padding-top: 100px;
+  text-align: center;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Table properties.*/
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: rgba(0,0,0,0);
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: rgba(68, 71, 70, 0.5);
+   border: none;
+ }
+
+ .table-striped>tbody>tr:nth-child(even)>td,
+ .table-striped>tbody>tr:nth-child(even)>th {
+    background-color: rgba(73, 76, 75, 0.6);
+    border: none;
+  }
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}

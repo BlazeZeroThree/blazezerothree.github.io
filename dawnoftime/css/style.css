@@ -1,11 +1,16 @@
 /* CSS Document */
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .header {
 	margin-top: 20px;
 	display: flex;
 	align-items: center;
 	font-family: Garamond, Georgia, serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-style: italic;
 	color: grey;
 }
@@ -14,6 +19,10 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#header {
+	/*Need to rewrite the header area*/
 }
 
 #navbar {
@@ -26,7 +35,7 @@
 #navbar ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0px;
+	padding: 0;
 	overflow: hidden;
 	border-top: solid black 1px;
 	border-bottom: solid black 1px;
@@ -34,8 +43,21 @@
 
 #navbar li {
 	float: left;
-	width: 20%;
+	width: 18%;
 	color: red;
+}
+
+#navbar .search {
+    width: 28%;
+}
+
+#navbar .form-control {
+    width: 60%;
+    display: inline;
+}
+
+#navbar .input-group-btn {
+    display: inline;
 }
 
 #navbar a {
@@ -55,27 +77,33 @@
 	background: #000000;
 }
 
+#navbar input {
+    width: 80%;
+}
+
 #lead {
 	background-image: url("../img/cover1.jpg");
-	background-position: auto;
+	background-position: center center;
 	background-size: cover;
+    background-attachment: fixed;
 	padding-top: 20%;
 	padding-bottom: 20%;
 	margin-bottom: 0;
 	color: #FFFFFF;
+    text-align: center;
 }
 
 #lead h1 {
 	text-shadow: 2px 2px 1px black;
-	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
-	font-weight: bold;
+	font-family: "futura-pt", sans-serif;
+	/*font-weight: bold;*/
 	font-size: 72px;
 }
 
 #lead p {
 	text-shadow: 1px 1px 1px black;
 	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 #content {
@@ -90,7 +118,7 @@
 }
 
 #content h1 {
-	font-family: "acumin-pro", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "futura-pt", sans-serif;
 	font-weight: bold;
 	font-size: 40px;
 	margin-top: 0;
@@ -105,4 +133,57 @@
 #content p {
 	text-align: left;
 	font-size: 18px;
+}
+
+#footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: right;
+    color: white;
+    background-color: black;
+}
+
+/*Remember to add responsiveness below.*/
+
+/*Animation code*/
+/*=== Trigger  ===*/
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
