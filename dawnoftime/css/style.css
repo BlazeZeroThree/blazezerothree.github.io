@@ -161,7 +161,11 @@ body {
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> origin/master
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -175,15 +179,27 @@ body {
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> origin/master
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
+<<<<<<< HEAD
 
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+=======
+ 
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+>>>>>>> origin/master
