@@ -1,0 +1,44 @@
+/*imported font families
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Asar', serif; */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans', 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    color: white !important;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+p {
+    font-family: 'Asar', 'Georgia', serif;
+    font-size: 1.3em;
+}
+
+.jumbotron {
+    background-image: url("../img/cover1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 100%;
+    background-size: cover;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+
+#navbar {
+    font-family: 'Josefin Sans', 'Arial', sans-serif;
+    font-size: 1.2em;
+}
+
+.homepage a {
+    color: darkslateblue;
+    border-bottom: 1px dashed #e6e6e6;
+}
