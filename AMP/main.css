@@ -1,0 +1,137 @@
+* {
+
+}
+
+h1, h2, h3, h4, a {
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+nav {
+  background: white !important;
+  margin-bottom: 0 !important;
+  border: none !important;
+}
+
+hr {
+  width: 5em;
+  margin: 1em 0;
+  border-bottom: 3px solid black;
+}
+
+#header-top {
+  background-color: white;
+  text-align: right;
+  padding: 2em;
+  overflow: hidden;
+}
+
+#header-top a {
+  color: black;
+  text-decoration: none;
+}
+
+#header-bottom {
+  background-color: white;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, purple, blue, green) 5;
+}
+
+#header-top img {
+  height: 65px;
+  float: left;
+  margin: -2rem 0;
+  display: inline;
+}
+
+#topNavbar {
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+#topNavbar a {
+  color: black;
+}
+
+#topNavbar li:hover {
+  background: black;
+}
+
+#topNavbar a:hover {
+  transition: color 0.3s;
+  color: white;
+}
+
+#main-lead {
+  height: 75vh;
+  padding: 20vh 2em;
+  background: white;
+  background-image: url('img/dalaran.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+#main-lead button {
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#main-lead hr {
+  border-bottom: 3px solid white;
+  border-image: none;
+}
+
+#main-lead a {
+  font-size: 1.75em;
+  color: white;
+}
+
+#news {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  margin: -2em 7.5% -2em 7.5%;
+  background-color: white;
+}
+
+#news h1 {
+  margin: 0;
+  padding: 1em 0 0.5em 0;
+}
+
+#news img {
+  width: 100%;
+  text-align: center;
+}
+
+#testimonials {
+  position: relative;
+  z-index: -5;
+  background-color: #222;
+  margin-top: -2em;
+  color: white;
+  padding: 2em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.customContainer {
+  margin: auto;
+  padding: auto;
+  max-width: 1200px;
+}
